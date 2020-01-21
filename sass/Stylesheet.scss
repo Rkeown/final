@@ -1,6 +1,6 @@
 ﻿@import "Components/nav.scss";
 @import "Base/Table.scss";
-@import "mediaQueries.scss";
+
 * {
   font-family: Roboto, Verdana, Arial, sans-serif;
 }
@@ -266,3 +266,5 @@ tr {
     }
   }
 }
+
+@import "mediaQueries.scss";

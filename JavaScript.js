@@ -37,7 +37,7 @@ function search() {
         }
     }
 }
-/*big group of functions that disply content when their respective box is clicked on the course work page
+/*big group of functions that display content when their respective box is clicked on the course work page
 this is bit of a "brute force" method, im sure theres a way to use only one function and just change the values with if statements but i couldn't figure it out
 */
 var grade, room, name;
@@ -80,13 +80,14 @@ function openWorkGym() {
 //page breaks if you use edge so this function forces you to either use chrome or install it to use the page
 window.addEventListener("load", function(){
     if( navigator.userAgent.indexOf("Edge") != -1){
+        document.getElementById("Bedsby").innerHTML = "This site is better on chrome"
         if(this.confirm("Stop using edge")){
             window.location.href = "https://www.google.ca/chrome/?brand=CHBF&ds_kid=43700017722575264&utm_source=bing&utm_medium=cpc&utm_campaign=1008138%20%7C%20Chrome%20Win10%20%7C%20DR%20%7C%20ESS01%20%7C%20NA%20%7C%20CA%20%7C%20en%20%7C%20Desk%20%7C%20BING%20SEM%20%7C%20BKWS%20~%20Exact&utm_term=download%20chrome&utm_content=Download%20-%20Exact&gclid=CLLB_7WWlecCFc-sxQIdtWAMtg&gclsrc=ds";
-
         }
-        else{
+         else{
             window.location.href = "https://www.google.ca/chrome/?brand=CHBF&ds_kid=43700017722575264&utm_source=bing&utm_medium=cpc&utm_campaign=1008138%20%7C%20Chrome%20Win10%20%7C%20DR%20%7C%20ESS01%20%7C%20NA%20%7C%20CA%20%7C%20en%20%7C%20Desk%20%7C%20BING%20SEM%20%7C%20BKWS%20~%20Exact&utm_term=download%20chrome&utm_content=Download%20-%20Exact&gclid=CLLB_7WWlecCFc-sxQIdtWAMtg&gclsrc=ds";
         }
+    
     }
 })
 
